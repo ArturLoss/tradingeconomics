@@ -4,7 +4,8 @@
   "description": "Sample Typescript App for the Trading Economics API",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/tradingeconomics/tradingeconomics#readme",
   "dependencies": {
+    "nodemon": "^3.0.1",
     "tradingeconomics-stream": "^0.2.0"
   },
   "devDependencies": {
