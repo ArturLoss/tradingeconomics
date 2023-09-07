@@ -28,6 +28,7 @@ build/Release
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
 env
+.env
 
 
 
@@ -263,3 +264,10 @@ nodejs/test.js
 
 python/tradingeconomics.egg-info/
 R/tradingeconomics/.RData
+
+
+dist/
+.angular/
+.firebase/
+
+.DS_Store
